@@ -1,0 +1,13 @@
+{
+  "name": "select-plugin",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel --no-source-maps --open",
+    "clean": "rd dist /s /q",
+    "build": "npm run clean && parcel build --no-source-maps --no-cache"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0",
+    "parcel": "^2.0.0"
+  }
+}
